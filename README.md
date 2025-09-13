@@ -1,93 +1,96 @@
-Churn Analysis & Prediction Dashboard
-Overview
+<h1 align="center">Churn Analysis & Prediction Dashboard</h1>
 
-The Churn Analysis & Prediction Dashboard is an interactive Power BI project designed to monitor churn rates, analyze customer behavior, and identify key factors driving customer retention. This dashboard provides actionable insights to reduce churn and improve long-term business growth.
+<p align="center">
+  <em>Interactive Power BI dashboard for monitoring customer churn, analyzing behavior, and predicting high-risk segments.</em>
+</p>
 
-Key features include:
+<hr>
 
-Analysis of total customers, churn rate, new joiners, and total churn.
+<h2>📌 Overview</h2>
+<p>The <strong>Churn Analysis & Prediction Dashboard</strong> is designed to provide actionable insights into customer retention. It allows businesses to monitor churn rates, analyze customer behavior, and identify factors driving churn to improve long-term growth.</p>
 
-Interactive visualizations by age group, gender, contract type, payment method, tenure, and geography.
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>Track total customers, churn rate, new joiners, and total churn</li>
+  <li>Interactive visualizations by <em>age, gender, contract type, payment method, tenure, and geography</em></li>
+  <li>Predictive analysis to identify likely churners with detailed metrics</li>
+  <li>Drill-down capability for churn reasons and customer segmentation</li>
+</ul>
 
-Predictive analysis to identify likely churners and associated key metrics.
+<hr>
 
-Drill-down capability for churn reason and customer segmentation.
+<h2>📊 Dashboard Sections</h2>
 
-Dashboard Sections
-1. Churn Analysis
+<h3>1. Churn Analysis</h3>
+<ul>
+  <li><strong>Total Customers:</strong> 6,418</li>
+  <li><strong>Churn Rate:</strong> 27.0%</li>
+  <li><strong>New Joiners:</strong> 411</li>
+  <li><strong>Total Churn:</strong> 1,732</li>
+</ul>
+<p>Visualizations include churn by Age, Gender, Tenure, Contract, Payment Method, and Category, along with a detailed churn reason table for actionable insights.</p>
 
-Total Customers: 6,418
+<h3>2. Churn Prediction</h3>
+<ul>
+  <li><strong>Predicted Churners:</strong> 244 Female, 132 Male</li>
+  <li>Key Metrics: Marital status, age group, payment method, and contract type</li>
+  <li>Impact over the year and customers by tenure group</li>
+  <li>Churn Prediction Table: customer-level predictions with probability scores</li>
+  <li>Geographical Reach: Interactive India map showing churn distribution</li>
+</ul>
 
-Churn Rate: 27.0%
+<hr>
 
-New Joiners: 411
+<h2>⚙️ Features</h2>
+<ul>
+  <li>Interactive & filterable visuals with drill-down capability</li>
+  <li>Predictive insights to prioritize retention strategies</li>
+  <li>Actionable business metrics for high-risk customer segments</li>
+  <li>Customizable dashboard adaptable to other datasets or business contexts</li>
+</ul>
 
-Total Churn: 1,732
+<hr>
 
-Visualizations include:
+<h2>🛠 Tools & Technologies</h2>
+<ul>
+  <li>Power BI Desktop: Dashboard creation and visualization</li>
+  <li>Power BI Service: Optional for online publishing</li>
+  <li>Data Sources: Customer dataset including demographics, contract type, payment method, churn history, and behavioral metrics</li>
+  <li>Visualizations: Bar charts, column charts, pie charts, maps, and tables</li>
+</ul>
 
-Churn by Age, Gender, Tenure, Contract, Payment Method, and Category.
+<hr>
 
-Churn Rate by Segment highlighting high-risk customer groups.
-
-Detailed churn reason table for actionable insights.
-
-2. Churn Prediction
-
-Predicted Churners: 244 Female, 132 Male
-
-Key Metrics: Breakdown by marital status, age group, payment method, and contract type.
-
-Impact over the year and customers by tenure group.
-
-Churn Prediction Table: Provides customer-level predictions with detailed churn probability scores.
-
-Geographical Reach: Interactive India map showing churn distribution across states.
-
-Features
-
-Interactive & Filterable Visuals: Drill down into age groups, contract types, payment methods, and geographical regions.
-
-Predictive Insights: Identify potential churners and prioritize retention strategies.
-
-Actionable Business Metrics: Understand the reasons for churn and customer segments that need focus.
-
-Customizable Dashboard: Can be adapted to other datasets or business contexts.
-
-Tools & Technologies
-
-Power BI Desktop: Dashboard creation and visualization.
-
-Power BI Service: Optional for publishing reports online.
-
-Data Sources: Customer dataset including demographics, contract type, payment method, churn history, and other behavioral metrics.
-
-Visualization Types: Bar charts, column charts, pie charts, maps, and tables.
-
-Project Structure
+<h2>📁 Project Structure</h2>
+<pre>
 Churn_Analysis/
 │
 ├── Churn_Analysis.pbix       # Power BI dashboard file
-├── Data/                     # Folder containing source CSV/Excel data files
+├── Data/                     # Source CSV/Excel files
 ├── README.md                 # Project documentation
-└── Screenshots/              # Screenshots of the dashboard visuals
+└── Screenshots/              # Dashboard screenshots
+</pre>
 
-Usage
+<hr>
 
-Open the .pbix file in Power BI Desktop.
+<h2>🚀 Usage</h2>
+<ol>
+  <li>Open the <code>.pbix</code> file in Power BI Desktop</li>
+  <li>Ensure data source paths are correct for your system</li>
+  <li>Interact with filters and slicers to explore churn trends</li>
+  <li>Optionally, publish to Power BI Service to share online with interactive links</li>
+</ol>
 
-Ensure the data source paths are correct for your system.
+<hr>
 
-Interact with filters and slicers to explore churn trends by various segments.
+<h2>💡 Insights & Recommendations</h2>
+<ul>
+  <li>Focus on high-churn age groups and contract types to improve retention</li>
+  <li>Analyze payment methods linked with higher churn for process improvements</li>
+  <li>Use predictive tables to target high-risk customers with personalized strategies</li>
+  <li>Leverage geographical insights to guide regional campaigns</li>
+</ul>
 
-Optional: Publish to Power BI Service to share online and generate interactive browser links.
+<hr>
 
-Insights & Recommendations
 
-Focus on high-churn age groups and contract types to improve retention.
-
-Analyze payment methods linked with higher churn for potential improvements.
-
-Use predictive tables to target high-risk customers with personalized retention strategies.
-
-Geographical insights can guide regional campaigns to reduce churn.
